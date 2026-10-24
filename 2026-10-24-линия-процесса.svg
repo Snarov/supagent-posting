@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1260 580" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <g id="human">
+      <circle r="34" fill="#F28C38"/>
+      <circle cy="-9" r="8" fill="#fff"/>
+      <path d="M-14,18 Q-14,2 0,2 Q14,2 14,18 Z" fill="#fff"/>
+    </g>
+    <g id="agent">
+      <circle r="34" fill="#3B82F6"/>
+      <line x1="0" y1="-10" x2="0" y2="-18" stroke="#fff" stroke-width="3"/>
+      <circle cy="-20" r="3" fill="#fff"/>
+      <rect x="-14" y="-10" width="28" height="22" rx="6" fill="#fff"/>
+      <circle cx="-6" cy="1" r="3.2" fill="#3B82F6"/>
+      <circle cx="6" cy="1" r="3.2" fill="#3B82F6"/>
+    </g>
+    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#CBD5E1"/>
+    </marker>
+  </defs>
+
+  <rect width="1260" height="580" fill="#fff"/>
+
+  <g font-size="14" fill="#334155" text-anchor="middle">
+    <text x="200" y="80">Заявка</text>
+    <text x="330" y="80">Квалификация</text>
+    <text x="460" y="80">Инструкция</text>
+    <text x="590" y="80">Доступы</text>
+    <text x="720" y="80">Проверки</text>
+    <text x="850" y="80">Подключение</text>
+    <text x="980" y="80">Диагностика</text>
+    <text x="1110" y="80">Решение</text>
+  </g>
+
+  <text x="30" y="148" font-size="20" font-weight="700" fill="#0F172A">Сейчас</text>
+  <text x="30" y="172" font-size="13" fill="#64748B"><tspan x="30">человек</tspan><tspan x="30" dy="16">на каждом этапе</tspan></text>
+  <line x1="200" y1="150" x2="1170" y2="150" stroke="#CBD5E1" stroke-width="6" marker-end="url(#arrow)"/>
+  <use href="#human" xlink:href="#human" x="200" y="150"/>
+  <use href="#human" xlink:href="#human" x="330" y="150"/>
+  <use href="#human" xlink:href="#human" x="460" y="150"/>
+  <use href="#human" xlink:href="#human" x="590" y="150"/>
+  <use href="#human" xlink:href="#human" x="720" y="150"/>
+  <use href="#human" xlink:href="#human" x="850" y="150"/>
+  <use href="#human" xlink:href="#human" x="980" y="150"/>
+  <use href="#human" xlink:href="#human" x="1110" y="150"/>
+
+  <text x="30" y="298" font-size="20" font-weight="700" fill="#0F172A">Переход</text>
+  <text x="30" y="322" font-size="13" fill="#64748B"><tspan x="30">агент забирает</tspan><tspan x="30" dy="16">рутинные этапы</tspan></text>
+  <line x1="200" y1="300" x2="1170" y2="300" stroke="#CBD5E1" stroke-width="6" marker-end="url(#arrow)"/>
+  <use href="#agent" xlink:href="#agent" x="200" y="300"/>
+  <use href="#agent" xlink:href="#agent" x="330" y="300"/>
+  <use href="#human" xlink:href="#human" x="460" y="300"/>
+  <use href="#agent" xlink:href="#agent" x="590" y="300"/>
+  <use href="#agent" xlink:href="#agent" x="720" y="300"/>
+  <use href="#human" xlink:href="#human" x="850" y="300"/>
+  <use href="#human" xlink:href="#human" x="980" y="300"/>
+  <use href="#human" xlink:href="#human" x="1110" y="300"/>
+
+  <text x="30" y="448" font-size="20" font-weight="700" fill="#0F172A">Цель</text>
+  <text x="30" y="472" font-size="13" fill="#64748B"><tspan x="30">агент ведёт процесс,</tspan><tspan x="30" dy="16">человек контролирует</tspan></text>
+  <line x1="200" y1="450" x2="1170" y2="450" stroke="#CBD5E1" stroke-width="6" marker-end="url(#arrow)"/>
+  <use href="#agent" xlink:href="#agent" x="200" y="450"/>
+  <use href="#agent" xlink:href="#agent" x="330" y="450"/>
+  <use href="#agent" xlink:href="#agent" x="460" y="450"/>
+  <use href="#agent" xlink:href="#agent" x="590" y="450"/>
+  <use href="#agent" xlink:href="#agent" x="720" y="450"/>
+  <use href="#agent" xlink:href="#agent" x="850" y="450"/>
+  <use href="#agent" xlink:href="#agent" x="980" y="450"/>
+  <use href="#agent" xlink:href="#agent" x="1110" y="450"/>
+  <path d="M200,398 L200,388 L1110,388 L1110,398" fill="none" stroke="#F28C38" stroke-width="2" stroke-dasharray="6 5"/>
+  <use href="#human" xlink:href="#human" transform="translate(655,380) scale(0.5)"/>
+
+    <g font-size="14" fill="#334155">
+    <use href="#human" xlink:href="#human" transform="translate(220,540) scale(0.45)"/>
+    <text x="242" y="545">человек</text>
+    <use href="#agent" xlink:href="#agent" transform="translate(340,540) scale(0.45)"/>
+    <text x="362" y="545">агент</text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+<defs>
+<marker id="r" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#EF4444"/></marker>
+<marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#16A34A"/></marker>
+<marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#94A3B8"/></marker>
+</defs>
+<rect width="1000" height="420" fill="#fff"/>
+<text x="30" y="36" font-size="20" font-weight="700" fill="#0F172A">Три способа добраться до точки решения (схема)</text>
+<rect x="20" y="60" width="300" height="300" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="170" y="86" font-size="14" font-weight="700" text-anchor="middle" fill="#334155">1. Один выстрел</text>
+<circle cx="60" cy="320" r="7" fill="#334155"/><text x="60" y="342" font-size="12" text-anchor="middle" fill="#64748B">старт</text>
+<circle cx="270" cy="130" r="26" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/><circle cx="270" cy="130" r="5" fill="#16A34A"/><text x="270" y="176" font-size="12" text-anchor="middle" fill="#16A34A">решение</text>
+<line x1="66" y1="314" x2="220" y2="218" stroke="#EF4444" stroke-width="2.5" marker-end="url(#r)"/>
+<text x="228" y="226" font-size="22" fill="#EF4444">✕</text>
+<text x="170" y="378" font-size="12" text-anchor="middle" fill="#64748B">промах = сломали</text>
+<rect x="350" y="60" width="300" height="300" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="500" y="86" font-size="14" font-weight="700" text-anchor="middle" fill="#334155">2. Брутфорс вслепую</text>
+<circle cx="390" cy="320" r="7" fill="#334155"/><text x="390" y="342" font-size="12" text-anchor="middle" fill="#64748B">старт</text>
+<circle cx="600" cy="130" r="26" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/><circle cx="600" cy="130" r="5" fill="#16A34A"/><text x="600" y="176" font-size="12" text-anchor="middle" fill="#16A34A">решение</text>
+<g stroke="#94A3B8" stroke-width="1.5" marker-end="url(#s)" opacity=".8">
+<line x1="396" y1="314" x2="470" y2="150"/><line x1="396" y1="316" x2="560" y2="300"/><line x1="396" y1="314" x2="420" y2="130"/>
+<line x1="396" y1="314" x2="540" y2="210"/><line x1="396" y1="314" x2="620" y2="250"/><line x1="396" y1="314" x2="505" y2="110"/>
+<line x1="396" y1="314" x2="480" y2="270"/><line x1="396" y1="314" x2="630" y2="180"/>
+</g>
+<text x="500" y="378" font-size="12" text-anchor="middle" fill="#64748B">попытки независимы: промах ничему не учит</text>
+<rect x="680" y="60" width="300" height="300" rx="12" fill="#F8FAFC" stroke="#E2E8F0"/>
+<text x="830" y="86" font-size="14" font-weight="700" text-anchor="middle" fill="#334155">3. Цикл обратной связи</text>
+<circle cx="720" cy="320" r="7" fill="#334155"/><text x="720" y="342" font-size="12" text-anchor="middle" fill="#64748B">старт</text>
+<circle cx="930" cy="130" r="26" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/><circle cx="930" cy="130" r="5" fill="#16A34A"/><text x="930" y="176" font-size="12" text-anchor="middle" fill="#16A34A">решение</text>
+<polyline points="720,320 800,300 770,240 850,230 835,180 905,150" fill="none" stroke="#16A34A" stroke-width="2.5" marker-end="url(#g)"/>
+<g fill="#fff" stroke="#16A34A" stroke-width="2"><circle cx="800" cy="300" r="5"/><circle cx="770" cy="240" r="5"/><circle cx="850" cy="230" r="5"/><circle cx="835" cy="180" r="5"/></g>
+<text x="812" y="316" font-size="11" fill="#64748B">измерили</text>
+<text x="722" y="238" font-size="11" fill="#64748B">откат</text>
+<polyline points="900,300 908,230 922,160" fill="none" stroke="#3B82F6" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#g)"/>
+<circle cx="900" cy="300" r="6" fill="#3B82F6"/><text x="905" y="342" font-size="11" text-anchor="middle" fill="#3B82F6">старт с памятью</text>
+<text x="830" y="378" font-size="12" text-anchor="middle" fill="#64748B">шаг случаен, траектория сходится; память сдвигает старт</text>
+</svg>

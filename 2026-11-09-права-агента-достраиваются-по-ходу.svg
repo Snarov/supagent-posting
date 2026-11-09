@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#475569"/></marker></defs>
+<rect width="1000" height="700" fill="#fff"/>
+<text x="30" y="36" font-size="20" font-weight="700" fill="#0F172A">Права агента достраиваются по ходу: от read-only к автономному прогону</text>
+<text x="30" y="58" font-size="13" fill="#64748B">Пример: просроченный внутренний сертификат между nginx-прокси и VNC-сервером. Песочница — не VM, а ограниченный пользователь и точка входа.</text>
+
+<rect x="30" y="80" width="290" height="104" rx="12" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2.5"/>
+<text x="175" y="104" font-size="12" text-anchor="middle" fill="#1E3A8A">ПРОГОН 1</text>
+<text x="175" y="126" font-size="16" font-weight="700" text-anchor="middle" fill="#1E3A8A">Только чтение</text>
+<text x="175" y="150" font-size="13" text-anchor="middle" fill="#1E3A8A">агент смотрит и предлагает команды,</text>
+<text x="175" y="168" font-size="13" text-anchor="middle" fill="#1E3A8A">инженер ревьюит и выполняет руками</text>
+
+<rect x="355" y="80" width="290" height="104" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2.5"/>
+<text x="500" y="104" font-size="12" text-anchor="middle" fill="#78350F">ЗАКРЕПЛЕНИЕ</text>
+<text x="500" y="126" font-size="16" font-weight="700" text-anchor="middle" fill="#78350F">Выдача прав после review</text>
+<text x="500" y="150" font-size="13" text-anchor="middle" fill="#78350F">агент запоминает команды,</text>
+<text x="500" y="168" font-size="13" text-anchor="middle" fill="#78350F">инженер создаёт обёртку</text>
+
+<rect x="680" y="80" width="290" height="104" rx="12" fill="#DCFCE7" stroke="#22C55E" stroke-width="2.5"/>
+<text x="825" y="104" font-size="12" text-anchor="middle" fill="#14532D">ПРОГОНЫ 2, 3, …</text>
+<text x="825" y="126" font-size="16" font-weight="700" text-anchor="middle" fill="#14532D">Полностью автономно</text>
+<text x="825" y="150" font-size="13" text-anchor="middle" fill="#14532D">свой пользователь, только скрипты</text>
+<text x="825" y="168" font-size="13" text-anchor="middle" fill="#14532D">тулсета, без человека в цикле</text>
+
+<path d="M320 132 L353 132" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<path d="M645 132 L678 132" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+
+<rect x="30" y="208" width="450" height="300" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+<text x="50" y="236" font-size="15" font-weight="700" fill="#0F172A">Как выдаются права</text>
+<text x="50" y="270" font-size="13" fill="#334155">• по умолчанию — только чтение, прав на запись нет</text>
+<text x="50" y="296" font-size="13" fill="#334155">• права выдаёт инженер, а не агент и не по его запросу</text>
+<text x="50" y="322" font-size="13" fill="#334155">• только после review проверенных команд</text>
+<text x="50" y="348" font-size="13" fill="#334155">• одной операцией с закреплением создаются:</text>
+<text x="70" y="370" font-size="13" fill="#334155">– отдельный пользователь (без root)</text>
+<text x="70" y="392" font-size="13" fill="#334155">– его права: Linux-permission и dACL</text>
+<text x="70" y="414" font-size="13" fill="#334155">– набор скриптов (тулсет)</text>
+<text x="50" y="442" font-size="13" fill="#334155">• права под одну задачу: выпуск и обновление сертификатов</text>
+<text x="50" y="468" font-size="13" fill="#334155">• скрипты агент только запускает: у его пользователя на них</text>
+<text x="62" y="486" font-size="13" fill="#334155">чтение и исполнение, записи нет — набор прав не расширить</text>
+
+<rect x="520" y="208" width="450" height="300" rx="12" fill="#F8FAFC" stroke="#94A3B8" stroke-width="2"/>
+<text x="540" y="236" font-size="15" font-weight="700" fill="#0F172A">Как работают ограничения: три независимых уровня</text>
+<text x="540" y="268" font-size="13" font-weight="700" fill="#1E3A8A">1. Evaluator (LLM-судья) — вероятностный</text>
+<text x="560" y="290" font-size="13" fill="#334155">– отклоняет любой write-bash вне тулсета</text>
+<text x="560" y="310" font-size="13" fill="#334155">– ошибка у двух топовых моделей сразу почти невозможна</text>
+<text x="540" y="344" font-size="13" font-weight="700" fill="#78350F">2. Linux-пользователь — детерминированный</text>
+<text x="560" y="366" font-size="13" fill="#334155">– нет root и общего sudo, запись только в каталог</text>
+<text x="572" y="384" font-size="13" fill="#334155">сертификатов; на скрипты — только чтение и запуск</text>
+<text x="560" y="406" font-size="13" fill="#334155">– отказывает ОС, даже если evaluator ошибся</text>
+<text x="540" y="440" font-size="13" font-weight="700" fill="#14532D">3. Скрипты тулсета — детерминированные</text>
+<text x="560" y="462" font-size="13" fill="#334155">– узкий функционал, параметры проверяются</text>
+<text x="560" y="482" font-size="13" fill="#334155">– бэкап до изменения, проверка до применения</text>
+
+<rect x="30" y="532" width="940" height="100" rx="12" fill="#F1F5F9" stroke="#94A3B8" stroke-width="2"/>
+<text x="50" y="558" font-size="15" font-weight="700" fill="#0F172A">Тулсет для задачи с сертификатом (пример)</text>
+<text x="50" y="584" font-size="13" fill="#334155"><tspan font-weight="700">cert-status</tspan> — сроки действия сертификатов, только чтение · запускает агент</text>
+<text x="50" y="606" font-size="13" fill="#334155"><tspan font-weight="700">cert-renew &lt;домен&gt;</tspan> — бэкап, выпуск, nginx -t, reload · запускает агент</text>
+<text x="50" y="628" font-size="13" fill="#334155"><tspan font-weight="700">cert-rollback</tspan> — возврат из бэкапа при красной метрике · запускает автоматика, не агент</text>
+
+<text x="500" y="662" font-size="14" text-anchor="middle" font-weight="700" fill="#0F172A">один раз — read-only и review инженера, дальше — автономно в границах выданных прав</text>
+<text x="500" y="684" font-size="13" text-anchor="middle" fill="#64748B">произвольный bash агенту не выдаётся ни на одном шаге; откат — всегда независимая автоматика</text>
+</svg>

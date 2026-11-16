@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 400" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#475569"/></marker></defs>
+<rect width="1100" height="400" fill="#fff"/>
+<text x="30" y="36" font-size="20" font-weight="700" fill="#0F172A">Готовый агент общего назначения: цикл в готовой оболочке</text>
+<text x="30" y="58" font-size="13" fill="#64748B">Claude Code, Codex, Cursor, OpenCode: рассчитаны на разработчика у терминала.</text>
+<rect x="40" y="150" width="170" height="80" rx="12" fill="#F1F5F9" stroke="#94A3B8" stroke-width="2"/>
+<text x="125.0" y="186.0" font-size="15" font-weight="700" text-anchor="middle" fill="#334155">Разработчик</text>
+<text x="125.0" y="208.0" font-size="12" text-anchor="middle" fill="#64748B">доверенный</text>
+<rect x="320" y="100" width="300" height="180" rx="14" fill="#DBEAFE" stroke="#3B82F6" stroke-width="2.5"/>
+<text x="470" y="130" font-size="16" font-weight="700" text-anchor="middle" fill="#1E3A8A">Агент</text>
+<rect x="340" y="144" width="260" height="30" rx="8" fill="#fff" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="470" y="164" font-size="12" text-anchor="middle" fill="#1E3A8A">агентский цикл (agentic loop)</text>
+<rect x="340" y="182" width="260" height="30" rx="8" fill="#fff" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="470" y="202" font-size="12" text-anchor="middle" fill="#1E3A8A">свои объёмные инструкции</text>
+<rect x="340" y="220" width="260" height="30" rx="8" fill="#fff" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="470" y="240" font-size="12" text-anchor="middle" fill="#1E3A8A">сжатие истории, права на инструмент</text>
+<rect x="730" y="100" width="170" height="80" rx="12" fill="#F1F5F9" stroke="#94A3B8" stroke-width="2"/>
+<text x="815.0" y="136.0" font-size="15" font-weight="700" text-anchor="middle" fill="#334155">Инструменты</text>
+<text x="815.0" y="158.0" font-size="12" text-anchor="middle" fill="#64748B">терминал, файлы</text>
+<rect x="730" y="200" width="170" height="80" rx="12" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+<text x="815.0" y="236.0" font-size="15" font-weight="700" text-anchor="middle" fill="#78350F">Среда</text>
+<text x="815.0" y="258.0" font-size="12" text-anchor="middle" fill="#78350F">машина разработчика</text>
+<path d="M210 190 L318 190" fill="none" stroke="#475569" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<path d="M620 140 L728 140" fill="none" stroke="#475569" stroke-width="2" marker-start="url(#a)" marker-end="url(#a)"/>
+<path d="M815 182 L815 198" fill="none" stroke="#475569" stroke-width="2" marker-end="url(#a)"/>
+<text x="50" y="330" font-size="13" text-anchor="start" fill="#334155">Каналы, много клиентов, модерация, память по клиентам, обучение на правках —</text>
+<text x="50" y="350" font-size="13" text-anchor="start" fill="#334155">вне агента: всё это приходится строить вокруг.</text>
+<text x="550" y="385" font-size="13" font-weight="700" text-anchor="middle" fill="#0F172A">готовый цикл, готовые инструменты, один человек, которому агент доверяет</text>
+</svg>

@@ -2,34 +2,37 @@
 <!-- слайд: 2026-11-22-слайд-16-решение-персональные-данные -->
 <defs><marker id="mI" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B4BEA"/></marker><marker id="mR" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E5486B"/></marker><marker id="mG" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22B59A"/></marker><marker id="mW" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#FFFFFF"/></marker><marker id="mM" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8B86B8"/></marker><linearGradient id="gInd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#3A1F9E"/></linearGradient><linearGradient id="gBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#2C1370"/></linearGradient><linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="0.4" stop-color="#4B33D3"/><stop offset="1" stop-color="#2C1370"/></linearGradient><radialGradient id="gGlow"><stop offset="0" stop-color="#8C7DFF" stop-opacity="0.38"/><stop offset="0.65" stop-color="#8C7DFF" stop-opacity="0"/></radialGradient><radialGradient id="gShade"><stop offset="0" stop-color="#1E085A" stop-opacity="0.55"/><stop offset="0.7" stop-color="#1E085A" stop-opacity="0"/></radialGradient><filter id="sh" x="-5%" y="-30%" width="110%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4B3BDB" flood-opacity="0.14"/></filter></defs>
 <rect width="1280" height="720" fill="#FFFFFF"/>
-<text x="72" y="104" font-size="44" font-weight="600" fill="#4B3BDB" text-anchor="start">Не дать, замаскировать, не передавать</text>
-<text x="72" y="150" font-size="24" font-weight="400" fill="#615D85" text-anchor="start">Четыре слоя, и каждый на классическом коде или проверке человека</text>
-<rect x="72" y="200" width="262" height="300" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
-<text x="203.0" y="246" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">Доступ</text>
-<text x="203.0" y="289" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">клиента задаёт код,</text>
-<text x="203.0" y="318" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">поля — по схеме,</text>
-<text x="203.0" y="347" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">код подтверждения</text>
-<text x="203.0" y="376" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">до модели не идёт</text>
-<rect x="362" y="200" width="262" height="300" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
-<text x="493.0" y="246" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">Маскировка</text>
-<text x="493.0" y="289" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">импорт тикетов:</text>
-<text x="493.0" y="318" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">[EMAIL], [PHONE],</text>
-<text x="493.0" y="347" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">[ACCOUNT_ID];</text>
-<text x="493.0" y="376" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">остатки — в карантин</text>
-<rect x="652" y="200" width="262" height="300" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
-<text x="783.0" y="246" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">Стенд</text>
-<text x="783.0" y="289" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">кейсы обезличены</text>
-<text x="783.0" y="318" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">до коммита;</text>
-<text x="783.0" y="347" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">биллинг — фикстуры,</text>
-<text x="783.0" y="376" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">не живые данные</text>
-<rect x="942" y="200" width="262" height="300" rx="16" fill="#FFF4DE" stroke="#F2A33A" stroke-width="2"/>
-<text x="1073.0" y="246" font-size="26" font-weight="700" fill="#7A4A00" text-anchor="middle">Вложения</text>
-<text x="1073.0" y="289" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">изображения</text>
-<text x="1073.0" y="318" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">и документы</text>
-<text x="1073.0" y="347" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">в модель не</text>
-<text x="1073.0" y="376" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">передаются</text>
+<text x="72" y="104" font-size="44" font-weight="700" fill="#4B3BDB">Не дать, замаскировать, не передавать</text>
+<text x="72" y="152" font-size="26" font-weight="600" fill="#24213F">Четыре слоя: обычный код и проверка человеком</text>
+<rect x="72" y="182" width="262" height="270" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="203" y="228" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Доступ</text>
+<text x="203" y="272" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">ID и учётную запись</text>
+<text x="203" y="304" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">клиента подставляет</text>
+<text x="203" y="336" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">код; модель их</text>
+<text x="203" y="368" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">не видит</text>
+<rect x="363" y="182" width="262" height="270" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="494" y="228" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Маскировка</text>
+<text x="494" y="272" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">в старых тикетах</text>
+<text x="494" y="304" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">почту и телефоны</text>
+<text x="494" y="336" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">заменяем метками;</text>
+<text x="494" y="368" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">что не вычистилось —</text>
+<text x="494" y="400" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">в карантин</text>
+<rect x="654" y="182" width="262" height="270" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="785" y="228" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Стенд</text>
+<text x="785" y="272" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">сценарии обезличены</text>
+<text x="785" y="304" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">до записи; ответы</text>
+<text x="785" y="336" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">систем записаны</text>
+<text x="785" y="368" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">заранее, а не живые</text>
+<rect x="945" y="182" width="262" height="270" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="1076" y="228" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Вложения</text>
+<text x="1076" y="272" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">фото и документы</text>
+<text x="1076" y="304" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">в модель</text>
+<text x="1076" y="336" font-size="20" font-weight="600" fill="#24213F" text-anchor="middle">не передаются</text>
+<rect x="72" y="470" width="1136" height="96" rx="16" fill="#FFF4DE" stroke="#F2A33A" stroke-width="2"/>
+<text x="640" y="510" font-size="24" font-weight="700" fill="#7A4A00" text-anchor="middle">Распознавание изображений?</text>
+<text x="640" y="544" font-size="21" font-weight="600" fill="#24213F" text-anchor="middle">Там, где фильтром не закрыть, мы честно забили: в модель картинки не идут вовсе</text>
 <rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
 <svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
-<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Идентификаторы с формой </tspan><tspan font-weight="700" fill="#4B3BDB">ловит код</tspan><tspan>, остальное проверяет человек</tspan></text>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Что имеет форму, ловит код, </tspan><tspan font-weight="700" fill="#4B3BDB">остальное проверяет человек</tspan></text>
 <rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
 </svg>

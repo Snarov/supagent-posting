@@ -2,30 +2,35 @@
 <!-- слайд: 2026-11-22-слайд-08-решение-память-скоуп -->
 <defs><marker id="mI" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B4BEA"/></marker><marker id="mR" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E5486B"/></marker><marker id="mG" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22B59A"/></marker><marker id="mW" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#FFFFFF"/></marker><marker id="mM" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8B86B8"/></marker><linearGradient id="gInd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#3A1F9E"/></linearGradient><linearGradient id="gBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#2C1370"/></linearGradient><linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="0.4" stop-color="#4B33D3"/><stop offset="1" stop-color="#2C1370"/></linearGradient><radialGradient id="gGlow"><stop offset="0" stop-color="#8C7DFF" stop-opacity="0.38"/><stop offset="0.65" stop-color="#8C7DFF" stop-opacity="0"/></radialGradient><radialGradient id="gShade"><stop offset="0" stop-color="#1E085A" stop-opacity="0.55"/><stop offset="0.7" stop-color="#1E085A" stop-opacity="0"/></radialGradient><filter id="sh" x="-5%" y="-30%" width="110%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4B3BDB" flood-opacity="0.14"/></filter></defs>
 <rect width="1280" height="720" fill="#FFFFFF"/>
-<text x="72" y="104" font-size="44" font-weight="600" fill="#4B3BDB" text-anchor="start">Скоуп, тип записи и фильтр по ситуации</text>
-<text x="72" y="150" font-size="24" font-weight="400" fill="#615D85" text-anchor="start">Что запомнено, для кого и в какой роли</text>
-<rect x="72" y="190" width="352" height="240" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
-<text x="248.0" y="240" font-size="30" font-weight="700" fill="#24213F" text-anchor="middle">Скоуп</text>
-<text x="248.0" y="283" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">global, agent, profile, chat</text>
-<text x="248.0" y="312" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">плюс фильтр по каналу;</text>
-<text x="248.0" y="341" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">ищем только по скоупам</text>
-<text x="248.0" y="370" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">текущего чата</text>
-<rect x="464" y="190" width="352" height="240" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
-<text x="640.0" y="240" font-size="30" font-weight="700" fill="#24213F" text-anchor="middle">Тип</text>
-<text x="640.0" y="283" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">instruction — что делать,</text>
-<text x="640.0" y="312" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">correction — исправление,</text>
-<text x="640.0" y="341" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">example — только стиль;</text>
-<text x="640.0" y="370" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">факты — из инструментов</text>
-<rect x="856" y="190" width="352" height="240" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
-<text x="1032.0" y="240" font-size="30" font-weight="700" fill="#24213F" text-anchor="middle">Фильтр</text>
-<text x="1032.0" y="283" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">судья оставляет пример,</text>
-<text x="1032.0" y="312" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">только если ситуация</text>
-<text x="1032.0" y="341" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">клиента совпала;</text>
-<text x="1032.0" y="370" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">чужие суммы — не факты</text>
-<rect x="72" y="456" width="1136" height="66" rx="14" fill="#24213F"/>
-<text x="94" y="506" font-size="20" font-weight="400" fill="#E4E0FF" text-anchor="start" font-family="'JetBrains Mono', 'DejaVu Sans Mono', Menlo, monospace">&lt;precedence&gt;  профиль → правила → инструкции и коррекции → факты и примеры</text>
+<text x="72" y="104" font-size="44" font-weight="700" fill="#4B3BDB">У каждой записи — тип, место и вес</text>
+<text x="72" y="152" font-size="26" font-weight="600" fill="#24213F">Что запомнили, где запись действует и что главнее при споре</text>
+<rect x="72" y="186" width="360" height="270" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="252" y="232" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Тип</text>
+<text x="252" y="276" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">факт — что верно;</text>
+<text x="252" y="308" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">инструкция — как</text>
+<text x="252" y="340" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">действовать;</text>
+<text x="252" y="372" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">пример — образец ответа,</text>
+<text x="252" y="404" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">берём только форму</text>
+<rect x="460" y="186" width="360" height="270" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="640" y="232" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Где действует</text>
+<text x="640" y="276" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">везде, у одного агента</text>
+<text x="640" y="308" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">или в одном чате;</text>
+<text x="640" y="340" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">плюс список каналов:</text>
+<text x="640" y="372" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">мессенджер, тикеты,</text>
+<text x="640" y="404" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">сайт — или все сразу</text>
+<rect x="848" y="186" width="360" height="270" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="1028" y="232" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Что главнее</text>
+<text x="1028" y="276" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">основная инструкция</text>
+<text x="1028" y="306" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">→ правила оператора</text>
+<text x="1028" y="336" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">→ инструкции из памяти</text>
+<text x="1028" y="366" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">→ факты и примеры;</text>
+<text x="1028" y="396" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">данные о клиенте —</text>
+<text x="1028" y="426" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">из систем, не из памяти</text>
+<rect x="72" y="476" width="1136" height="92" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
+<text x="640" y="514" font-size="23" font-weight="700" fill="#24213F" text-anchor="middle">Агент поиска в памяти берёт запись, только если она нужна для ответа</text>
+<text x="640" y="548" font-size="21" font-weight="600" fill="#24213F" text-anchor="middle">на текущий вопрос клиента, и записывает, почему взял</text>
 <rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
 <svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
-<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Порядок источников и роль примера — </tspan><tspan font-weight="700" fill="#4B3BDB">в протоколе хода</tspan><tspan>, а не в просьбе</tspan></text>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Шаблон «для новых клиентов» </tspan><tspan font-weight="700" fill="#4B3BDB">до старого клиента не доходит</tspan></text>
 <rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
 </svg>

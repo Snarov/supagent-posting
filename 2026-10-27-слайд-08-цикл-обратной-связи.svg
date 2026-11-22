@@ -8,7 +8,7 @@
 <text x="295.0" y="314.9" font-size="22" font-weight="400" fill="#E4E0FF" text-anchor="middle" >выбор действия</text>
 <rect x="840" y="222" width="290" height="120" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
 <text x="985.0" y="274.1" font-size="30" font-weight="700" fill="#24213F" text-anchor="middle" >Действие</text>
-<text x="985.0" y="314.9" font-size="22" font-weight="400" fill="#615D85" text-anchor="middle" >тулы, скрипт</text>
+<text x="985.0" y="314.9" font-size="22" font-weight="400" fill="#615D85" text-anchor="middle" >инструменты, скрипт</text>
 <rect x="840" y="438" width="290" height="120" rx="16" fill="#FFF4DE" stroke="#F2A33A" stroke-width="2"/>
 <text x="985.0" y="490.1" font-size="30" font-weight="700" fill="#7A4A00" text-anchor="middle" >Среда</text>
 <text x="985.0" y="530.9" font-size="22" font-weight="400" fill="#615D85" text-anchor="middle" >стенд, прод, мир</text>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Roboto, Arial, sans-serif">
+<!-- слайд: 2026-11-22-слайд-02б-проверки-перед-вызовом -->
+<defs><marker id="mI" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B4BEA"/></marker><marker id="mR" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E5486B"/></marker><marker id="mG" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22B59A"/></marker><marker id="mW" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#FFFFFF"/></marker><marker id="mM" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8B86B8"/></marker><linearGradient id="gInd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#3A1F9E"/></linearGradient><linearGradient id="gBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#2C1370"/></linearGradient><linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="0.4" stop-color="#4B33D3"/><stop offset="1" stop-color="#2C1370"/></linearGradient><radialGradient id="gGlow"><stop offset="0" stop-color="#8C7DFF" stop-opacity="0.38"/><stop offset="0.65" stop-color="#8C7DFF" stop-opacity="0"/></radialGradient><radialGradient id="gShade"><stop offset="0" stop-color="#1E085A" stop-opacity="0.55"/><stop offset="0.7" stop-color="#1E085A" stop-opacity="0"/></radialGradient><filter id="sh" x="-5%" y="-30%" width="110%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4B3BDB" flood-opacity="0.14"/></filter></defs>
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="72" y="104" font-size="44" font-weight="700" fill="#4B3BDB">Шесть проверок перед вызовом инструмента</text>
+<text x="72" y="152" font-size="26" font-weight="600" fill="#24213F">Проверяет код. Не пройдена хоть одна проверка — инструмент не вызывается</text>
+<rect x="72" y="182" width="1136" height="57" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<circle cx="110" cy="210" r="19" fill="#5B4BEA"/>
+<text x="110" y="218" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="148" y="219" font-size="25" font-weight="700" fill="#24213F" text-anchor="start">Кто вызывает</text>
+<text x="392" y="218" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">Клиент, оператор или гость без входа. Гостю можно только читать.</text>
+<rect x="72" y="247" width="1136" height="57" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<circle cx="110" cy="275" r="19" fill="#5B4BEA"/>
+<text x="110" y="283" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="148" y="284" font-size="25" font-weight="700" fill="#24213F" text-anchor="start">Роль</text>
+<text x="392" y="283" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">Часть инструментов есть только у оператора, клиенту они недоступны.</text>
+<rect x="72" y="312" width="1136" height="57" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<circle cx="110" cy="340" r="19" fill="#5B4BEA"/>
+<text x="110" y="348" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="148" y="349" font-size="25" font-weight="700" fill="#24213F" text-anchor="start">Права</text>
+<text x="392" y="348" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">Клиент читает свой чат и базу знаний, оператор ещё и меняет правила.</text>
+<rect x="72" y="377" width="1136" height="57" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<circle cx="110" cy="405" r="19" fill="#5B4BEA"/>
+<text x="110" y="413" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="148" y="414" font-size="25" font-weight="700" fill="#24213F" text-anchor="start">Подтверждение</text>
+<text x="392" y="413" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">Опасное действие не выполняется, пока человек не ответит «да».</text>
+<rect x="72" y="442" width="1136" height="57" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<circle cx="110" cy="470" r="19" fill="#5B4BEA"/>
+<text x="110" y="478" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="148" y="479" font-size="25" font-weight="700" fill="#24213F" text-anchor="start">Свой агент</text>
+<text x="392" y="478" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">Агент видит только свою базу знаний и память, но не соседнего агента.</text>
+<rect x="72" y="507" width="1136" height="57" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<circle cx="110" cy="535" r="19" fill="#5B4BEA"/>
+<text x="110" y="543" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="middle">6</text>
+<text x="148" y="544" font-size="25" font-weight="700" fill="#24213F" text-anchor="start">Чей клиент</text>
+<text x="392" y="543" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">ID клиента подставляет код, и данные приходят только этого клиента.</text>
+<rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
+<svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Что бы ни решила модель, </tspan><tspan font-weight="700" fill="#4B3BDB">последнее слово за кодом</tspan></text>
+<rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
+</svg>

@@ -1,22 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Roboto, Arial, sans-serif">
-<!-- слайд: 2026-10-27-слайд-12-память-сдвигает-старт · seed 837541 -->
+<!-- слайд: 2026-11-22-слайд-12-память-сдвигает-старт -->
 <defs><marker id="mI" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B4BEA"/></marker><marker id="mR" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E5486B"/></marker><marker id="mG" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22B59A"/></marker><marker id="mW" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#FFFFFF"/></marker><marker id="mM" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8B86B8"/></marker><linearGradient id="gInd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#3A1F9E"/></linearGradient><linearGradient id="gBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#2C1370"/></linearGradient><linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="0.4" stop-color="#4B33D3"/><stop offset="1" stop-color="#2C1370"/></linearGradient><radialGradient id="gGlow"><stop offset="0" stop-color="#8C7DFF" stop-opacity="0.38"/><stop offset="0.65" stop-color="#8C7DFF" stop-opacity="0"/></radialGradient><radialGradient id="gShade"><stop offset="0" stop-color="#1E085A" stop-opacity="0.55"/><stop offset="0.7" stop-color="#1E085A" stop-opacity="0"/></radialGradient><filter id="sh" x="-5%" y="-30%" width="110%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4B3BDB" flood-opacity="0.14"/></filter></defs>
 <rect width="1280" height="720" fill="#FFFFFF"/>
-<text x="72.0" y="104.0" font-size="44" font-weight="600" fill="#4B3BDB" text-anchor="start" >Память сдвигает старт</text><text x="72.0" y="150.0" font-size="24" font-weight="400" fill="#615D85" text-anchor="start" >Путь к решению можно не терять</text>
-<circle cx="1030" cy="300" r="46" fill="#DDF5EF" stroke="#22B59A" stroke-width="4"/><circle cx="1030" cy="300" r="9" fill="#22B59A"/><text x="1030.0" y="234.0" font-size="28" font-weight="700" fill="#0B5C4D" text-anchor="middle" >решение</text>
-<path d="M163.6 496.9 L326.8 459.4" fill="none" stroke="#B9B4DC" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 12"/>
-<path d="M336.8 442.7 L321.6 386.9" fill="none" stroke="#B9B4DC" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 12"/>
-<path d="M331.9 372.2 L546.6 352.5" fill="none" stroke="#B9B4DC" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 12"/>
-<path d="M545.7 339.1 L529.4 295.7" fill="none" stroke="#5B4BEA" stroke-width="6" stroke-linecap="round"/>
-<path d="M538.4 284.2 L751.8 307.3" fill="none" stroke="#5B4BEA" stroke-width="6" stroke-linecap="round"/>
-<path d="M779.7 308.2 L962.0 300.2" fill="none" stroke="#5B4BEA" stroke-width="6" stroke-linecap="round" marker-end="url(#mI)"/>
-<circle cx="340.4" cy="456.3" r="7" fill="#B9B4DC"/>
-<circle cx="318.0" cy="373.4" r="7" fill="#B9B4DC"/>
-<circle cx="524.5" cy="282.6" r="12" fill="#FFFFFF" stroke="#5B4BEA" stroke-width="5"/>
-<circle cx="765.7" cy="308.8" r="12" fill="#FFFFFF" stroke="#5B4BEA" stroke-width="5"/>
-<circle cx="150" cy="500" r="11" fill="#8B86B8"/><text x="150.0" y="544.0" font-size="26" font-weight="500" fill="#8B86B8" text-anchor="middle" >без памяти</text>
-<circle cx="550.6" cy="352.2" r="15" fill="#5B4BEA"/>
-<text x="558.6" y="406.2" font-size="28" font-weight="700" fill="#4B3BDB" text-anchor="middle" >с памятью</text>
-<rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/><svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg><text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Записанные трассы </tspan><tspan font-weight="700" fill="#4B3BDB">сдвигают старт ближе к решению</tspan></text>
+<text x="72" y="104" font-size="44" font-weight="700" fill="#4B3BDB">Память сдвигает старт и выпрямляет путь</text>
+<text x="72" y="152" font-size="26" font-weight="600" fill="#24213F">Не делаем шагов, которые заранее не нужны или уже оказались не теми</text>
+<circle cx="1090" cy="400" r="46" fill="#DDF5EF" stroke="#22B59A" stroke-width="4"/><circle cx="1090" cy="400" r="9" fill="#22B59A"/>
+<text x="1090" y="334" font-size="28" font-weight="700" fill="#0B5C4D" text-anchor="middle">решение</text>
+<path d="M130 330 L250 410 L330 300 L470 380 L560 290 L700 370 L800 300 L930 380 L1036 396" fill="none" stroke="#B9B4DC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 12"/>
+<circle cx="250" cy="410" r="7" fill="#B9B4DC"/>
+<circle cx="330" cy="300" r="7" fill="#B9B4DC"/>
+<circle cx="470" cy="380" r="7" fill="#B9B4DC"/>
+<circle cx="560" cy="290" r="7" fill="#B9B4DC"/>
+<circle cx="700" cy="370" r="7" fill="#B9B4DC"/>
+<circle cx="800" cy="300" r="7" fill="#B9B4DC"/>
+<circle cx="930" cy="380" r="7" fill="#B9B4DC"/>
+<path d="M330 300 L262 254" fill="none" stroke="#B9B4DC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 12"/>
+<path d="M239 233 L265 259 M265 233 L239 259" stroke="#E5486B" stroke-width="5" stroke-linecap="round"/>
+<text x="252" y="218" font-size="20" font-weight="700" fill="#A3223F" text-anchor="middle">заведомо лишний шаг</text>
+<path d="M560 290 L640 254" fill="none" stroke="#B9B4DC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 12"/>
+<path d="M639 235 L665 261 M665 235 L639 261" stroke="#E5486B" stroke-width="5" stroke-linecap="round"/>
+<text x="652" y="218" font-size="20" font-weight="700" fill="#A3223F" text-anchor="middle">уже проверяли: не то</text>
+<circle cx="130" cy="330" r="11" fill="#8B86B8"/>
+<text x="130" y="300" font-size="24" font-weight="700" fill="#8B86B8" text-anchor="middle">без памяти</text>
+<path d="M520 520 L700 484 L870 448 L1038 412" fill="none" stroke="#5B4BEA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mI)"/>
+<circle cx="700" cy="484" r="12" fill="#FFFFFF" stroke="#5B4BEA" stroke-width="5"/>
+<circle cx="870" cy="448" r="12" fill="#FFFFFF" stroke="#5B4BEA" stroke-width="5"/>
+<circle cx="520" cy="520" r="15" fill="#5B4BEA"/>
+<text x="492" y="530" font-size="28" font-weight="700" fill="#4B3BDB" text-anchor="end">с памятью</text>
+<rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
+<svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Записанный опыт сдвигает старт ближе к решению </tspan><tspan font-weight="700" fill="#4B3BDB">и убирает лишние шаги</tspan></text>
 <rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
 </svg>

@@ -19,10 +19,10 @@
 <text x="1103.0" y="301.5" font-size="30" font-weight="700" fill="#FFFFFF" text-anchor="middle" >Шаг 3</text>
 <rect x="72" y="404" width="556" height="124" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
 <text x="350.0" y="458.8" font-size="30" font-weight="700" fill="#24213F" text-anchor="middle" >Накат →</text>
-<text x="350.0" y="498.2" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle" >apply.sh: один параметр PostgreSQL</text>
+<text x="350.0" y="498.2" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle" >скрипт меняет один параметр PostgreSQL</text>
 <rect x="652" y="404" width="556" height="124" rx="16" fill="#FFF0F3" stroke="#F7B8C7" stroke-width="2"/>
 <text x="930.0" y="458.8" font-size="30" font-weight="700" fill="#A3223F" text-anchor="middle" >← Откат</text>
-<text x="930.0" y="498.2" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle" >rollback.sh: так же просто</text>
+<text x="930.0" y="498.2" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle" >скрипт откатывает так же просто</text>
 <rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/><svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg><text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Остановиться и вернуться можно </tspan><tspan font-weight="700" fill="#4B3BDB">на любом шаге</tspan></text>
 <rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
 </svg>

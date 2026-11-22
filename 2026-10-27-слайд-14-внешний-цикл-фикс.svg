@@ -18,7 +18,7 @@
 <path d="M920.7 289.0 L950.0 291.0" fill="none" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" marker-end="url(#mI)"/>
 <rect x="958" y="214" width="250" height="150" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
 <text x="1083.0" y="281.8" font-size="30" font-weight="700" fill="#24213F" text-anchor="middle" >PR</text>
-<text x="1083.0" y="321.2" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle" >данные, порог, тест</text>
+<text x="1083.0" y="321.2" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle" >данные, порог, кейс</text>
 <path d="M1083.0 372.0 L1083.0 424.0" fill="none" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 8" marker-end="url(#mI)"/>
 <rect x="72" y="430" width="1136" height="104" rx="16" fill="#FFFFFF" stroke="#C9C4F5" stroke-width="2" stroke-dasharray="9 7"/>
 <text x="640.0" y="492.5" font-size="30" font-weight="700" fill="#615D85" text-anchor="middle" >Следующие тикеты — уже с исправленным поведением</text>

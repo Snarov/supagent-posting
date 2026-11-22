@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Roboto, Arial, sans-serif">
+<!-- слайд: 2026-11-22-слайд-10-решение-память-противоречия -->
+<defs><marker id="mI" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B4BEA"/></marker><marker id="mR" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E5486B"/></marker><marker id="mG" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22B59A"/></marker><marker id="mW" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#FFFFFF"/></marker><marker id="mM" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8B86B8"/></marker><linearGradient id="gInd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#3A1F9E"/></linearGradient><linearGradient id="gBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#2C1370"/></linearGradient><linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="0.4" stop-color="#4B33D3"/><stop offset="1" stop-color="#2C1370"/></linearGradient><radialGradient id="gGlow"><stop offset="0" stop-color="#8C7DFF" stop-opacity="0.38"/><stop offset="0.65" stop-color="#8C7DFF" stop-opacity="0"/></radialGradient><radialGradient id="gShade"><stop offset="0" stop-color="#1E085A" stop-opacity="0.55"/><stop offset="0.7" stop-color="#1E085A" stop-opacity="0"/></radialGradient><filter id="sh" x="-5%" y="-30%" width="110%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4B3BDB" flood-opacity="0.14"/></filter></defs>
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="72" y="104" font-size="44" font-weight="600" fill="#4B3BDB" text-anchor="start">Правка оператора сводится в одно правило</text>
+<text x="72" y="150" font-size="24" font-weight="400" fill="#615D85" text-anchor="start">Дистилляция при записи и консолидация с похожими</text>
+<rect x="72" y="190" width="260" height="150" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="202.0" y="238" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Правка</text>
+<text x="202.0" y="282" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle">оператор поправил</text>
+<text x="202.0" y="312" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle">черновик</text>
+<rect x="390" y="190" width="320" height="150" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="550.0" y="238" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Дистилляция</text>
+<text x="550.0" y="282" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle">правило: что делать,</text>
+<text x="550.0" y="312" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle">чего избегать</text>
+<rect x="768" y="190" width="440" height="150" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="988.0" y="238" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Консолидация</text>
+<text x="988.0" y="282" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle">сверка с ближайшими</text>
+<text x="988.0" y="312" font-size="21" font-weight="400" fill="#615D85" text-anchor="middle">коррекциями (до 10)</text>
+<path d="M338 265 L382 265" fill="none" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" marker-end="url(#mI)"/>
+<path d="M716 265 L760 265" fill="none" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" marker-end="url(#mI)"/>
+<path d="M988 346 L988 382" fill="none" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" marker-end="url(#mI)"/>
+<rect x="72" y="386" width="1136" height="176" rx="16" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="96" y="418" font-size="16" font-weight="700" fill="#615D85" text-anchor="start">РЕШЕНИЕ ПО КАЖДОЙ ПОХОЖЕЙ ЗАПИСИ</text>
+<rect x="96" y="436" width="254" height="108" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="223.0" y="482" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">ADD</text>
+<text x="223.0" y="525" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">новое правило</text>
+<rect x="374" y="436" width="254" height="108" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
+<text x="501.0" y="482" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">UPDATE</text>
+<text x="501.0" y="525" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">уточняет старое</text>
+<rect x="652" y="436" width="254" height="108" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
+<text x="779.0" y="482" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">SUPERSEDE</text>
+<text x="779.0" y="525" font-size="20" font-weight="400" fill="#3F5F58" text-anchor="middle">старое выключено</text>
+<rect x="930" y="436" width="254" height="108" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
+<text x="1057.0" y="482" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">NOOP</text>
+<text x="1057.0" y="525" font-size="20" font-weight="400" fill="#615D85" text-anchor="middle">уже есть</text>
+<rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
+<svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Старое правило не копится рядом, а </tspan><tspan font-weight="700" fill="#4B3BDB">заменяется или выключается</tspan><tspan></tspan></text>
+<rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
+</svg>

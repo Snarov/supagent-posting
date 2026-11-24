@@ -22,17 +22,20 @@
 <text x="1028" y="302" font-size="21" font-weight="600" fill="#24213F" text-anchor="middle">проверяет, хватает ли</text>
 <text x="1028" y="332" font-size="21" font-weight="600" fill="#24213F" text-anchor="middle">источников для</text>
 <text x="1028" y="362" font-size="21" font-weight="600" fill="#24213F" text-anchor="middle">каждого факта</text>
-<rect x="72" y="410" width="556" height="162" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
-<text x="96" y="456" font-size="24" font-weight="700" fill="#24213F" text-anchor="start">Что считается источником</text>
-<text x="96" y="500" font-size="21" font-weight="600" fill="#24213F" text-anchor="start">ответ инструмента, память, правило,</text>
-<text x="96" y="530" font-size="21" font-weight="600" fill="#24213F" text-anchor="start">прошлая реплика агента или оператора</text>
+<rect x="72" y="410" width="556" height="162" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
+<text x="96" y="442" font-size="24" font-weight="700" fill="#0B5C4D" text-anchor="start">Что считается источником</text>
+<text x="96" y="472" font-size="19" font-weight="600" fill="#24213F" text-anchor="start">только то, что агент получил от системы:</text>
+<text x="96" y="500" font-size="19" font-weight="700" fill="#24213F" text-anchor="start">ответ инструмента, запись памяти, правило,</text>
+<text x="96" y="526" font-size="19" font-weight="700" fill="#24213F" text-anchor="start">прошлая реплика агента или оператора</text>
+<text x="96" y="556" font-size="18" font-weight="700" fill="#A3223F" text-anchor="start">слова клиента источником не считаются →</text>
 <rect x="652" y="410" width="556" height="162" rx="16" fill="#FFF0F3" stroke="#F7B8C7" stroke-width="2"/>
-<text x="676" y="456" font-size="24" font-weight="700" fill="#A3223F" text-anchor="start">Факт без источника</text>
-<text x="676" y="500" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">ответ клиенту не уходит;</text>
-<text x="676" y="527" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">у генератора одна попытка исправить,</text>
-<text x="676" y="554" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">не получилось — эскалация на человека</text>
+<text x="676" y="446" font-size="24" font-weight="700" fill="#A3223F" text-anchor="start">Факт без источника</text>
+<text x="676" y="482" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">1. Ответ клиенту не уходит</text>
+<text x="676" y="510" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">2. Генератор получает замечание</text>
+<text x="676" y="538" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">    и одну попытку исправить</text>
+<text x="676" y="566" font-size="20" font-weight="600" fill="#24213F" text-anchor="start">3. Не вышло — эскалация на человека</text>
 <rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
 <svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
-<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Слова клиента — контекст, а </tspan><tspan font-weight="700" fill="#4B3BDB">не доказательство факта</tspan></text>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Факт без источника </tspan><tspan font-weight="700" fill="#4B3BDB">до клиента не доходит</tspan></text>
 <rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
 </svg>

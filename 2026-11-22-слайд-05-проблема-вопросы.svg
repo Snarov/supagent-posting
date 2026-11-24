@@ -10,7 +10,7 @@
 <text x="248.0" y="322" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">«Подскажите номер»</text>
 <text x="248.0" y="353" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">«и счёт на оплату»</text>
 <rect x="108" y="380" width="280" height="56" rx="16" fill="#FFF0F3" stroke="#F7B8C7" stroke-width="2"/>
-<text x="248.0" y="415.35" font-size="21" font-weight="700" fill="#A3223F" text-anchor="middle">ответил на последнее</text>
+<text x="248.0" y="415.35" font-size="21" font-weight="700" fill="#A3223F" text-anchor="middle">вопрос не собран целиком</text>
 <rect x="464" y="200" width="352" height="250" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
 <text x="640.0" y="246" font-size="26" font-weight="700" fill="#24213F" text-anchor="middle">Много вопросов</text>
 <text x="640.0" y="291" font-size="22" font-weight="600" fill="#24213F" text-anchor="middle">одно сообщение,</text>
@@ -24,9 +24,9 @@
 <rect x="892" y="380" width="280" height="56" rx="16" fill="#FFF0F3" stroke="#F7B8C7" stroke-width="2"/>
 <text x="1032.0" y="415.35" font-size="21" font-weight="700" fill="#A3223F" text-anchor="middle">второй вопрос потерян</text>
 <rect x="72" y="478" width="1136" height="84" rx="16" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="2"/>
-<text x="640.0" y="528.4" font-size="24" font-weight="700" fill="#24213F" text-anchor="middle">Модель охотнее всего отвечает на то, что видит последним</text>
+<text x="640.0" y="528.4" font-size="24" font-weight="700" fill="#24213F" text-anchor="middle">Одни вопросы теряются, на другие агент отвечает дважды</text>
 <rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
 <svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
-<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Агент теряет вопросы не нарочно: он смотрит на </tspan><tspan font-weight="700" fill="#4B3BDB">последнюю реплику</tspan><tspan></tspan></text>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Агент теряет вопросы не нарочно: </tspan><tspan font-weight="700" fill="#4B3BDB">у него нет учёта, на что он уже ответил</tspan></text>
 <rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
 </svg>

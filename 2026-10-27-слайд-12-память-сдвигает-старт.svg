@@ -21,7 +21,7 @@
 <path d="M639 235 L665 261 M665 235 L639 261" stroke="#E5486B" stroke-width="5" stroke-linecap="round"/>
 <text x="652" y="218" font-size="20" font-weight="700" fill="#A3223F" text-anchor="middle">уже проверяли: не то</text>
 <circle cx="130" cy="330" r="11" fill="#8B86B8"/>
-<text x="130" y="300" font-size="24" font-weight="700" fill="#8B86B8" text-anchor="middle">без памяти</text>
+<text x="130" y="300" font-size="24" font-weight="700" fill="#24213F" text-anchor="middle">без памяти</text>
 <path d="M520 520 L700 484 L870 448 L1038 412" fill="none" stroke="#5B4BEA" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#mI)"/>
 <circle cx="700" cy="484" r="12" fill="#FFFFFF" stroke="#5B4BEA" stroke-width="5"/>
 <circle cx="870" cy="448" r="12" fill="#FFFFFF" stroke="#5B4BEA" stroke-width="5"/>

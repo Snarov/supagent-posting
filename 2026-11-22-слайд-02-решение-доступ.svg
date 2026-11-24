@@ -4,8 +4,8 @@
 <rect width="1280" height="720" fill="#FFFFFF"/>
 <text x="72" y="104" font-size="44" font-weight="700" fill="#4B3BDB">Права проверяет код, а не модель</text>
 <text x="72" y="152" font-size="26" font-weight="600" fill="#24213F">Что делает код с каждым источником ввода и что это гарантирует</text>
-<text x="286" y="202" font-size="16" font-weight="700" fill="#5B4BEA" text-anchor="start">ЧТО ДЕЛАЕТ КОД</text>
-<text x="762" y="202" font-size="16" font-weight="700" fill="#0B5C4D" text-anchor="start">ЧТО ЭТО ГАРАНТИРУЕТ</text>
+<text x="286" y="202" font-size="18" font-weight="700" fill="#5B4BEA" text-anchor="start">ЧТО ДЕЛАЕТ КОД</text>
+<text x="762" y="202" font-size="18" font-weight="700" fill="#0B5C4D" text-anchor="start">ЧТО ЭТО ГАРАНТИРУЕТ</text>
 <rect x="72" y="214" width="1136" height="108" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
 <text x="100" y="278" font-size="30" font-weight="700" fill="#24213F" text-anchor="start">Клиент</text>
 <text x="286" y="250" font-size="21" font-weight="600" fill="#24213F" text-anchor="start">ID и учётную запись клиента</text>

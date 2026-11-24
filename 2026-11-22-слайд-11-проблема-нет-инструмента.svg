@@ -8,14 +8,14 @@
 <text x="640" y="232" font-size="28" font-weight="700" fill="#A3223F" text-anchor="middle">Клиенту нужно действие, а у агента</text>
 <text x="640" y="274" font-size="24" font-weight="600" fill="#24213F" text-anchor="middle">ни инструмента, ни готового сценария под него</text>
 <rect x="72" y="326" width="556" height="236" rx="16" fill="#FFF4DE" stroke="#F2A33A" stroke-width="2"/>
-<text x="96" y="360" font-size="16" font-weight="700" fill="#5B4BEA" text-anchor="start">ВЕТКА 1 · ЭСКАЛАЦИЯ</text>
+<text x="96" y="360" font-size="18" font-weight="700" fill="#5B4BEA" text-anchor="start">ВЕТКА 1 · ЭСКАЛАЦИЯ</text>
 <text x="96" y="396" font-size="28" font-weight="700" fill="#24213F" text-anchor="start">Сделать нечем</text>
 <text x="96" y="440" font-size="22" font-weight="600" fill="#24213F" text-anchor="start">вопрос уходит человеку;</text>
 <text x="96" y="472" font-size="22" font-weight="600" fill="#24213F" text-anchor="start">пообещать клиенту то, что нечем</text>
 <text x="96" y="504" font-size="22" font-weight="600" fill="#24213F" text-anchor="start">сделать, агенту не даст</text>
 <text x="96" y="536" font-size="22" font-weight="600" fill="#24213F" text-anchor="start">проверка ответа</text>
 <rect x="652" y="326" width="556" height="236" rx="16" fill="#F4F2FF" stroke="#E4E0FF" stroke-width="2"/>
-<text x="676" y="360" font-size="16" font-weight="700" fill="#5B4BEA" text-anchor="start">ВЕТКА 2 · ПОД НАДЗОРОМ</text>
+<text x="676" y="360" font-size="18" font-weight="700" fill="#5B4BEA" text-anchor="start">ВЕТКА 2 · ПОД НАДЗОРОМ</text>
 <text x="676" y="396" font-size="28" font-weight="700" fill="#24213F" text-anchor="start">Можно собрать из того, что есть</text>
 <text x="676" y="440" font-size="22" font-weight="600" fill="#24213F" text-anchor="start">агент выполняет задачу имеющимися</text>
 <text x="676" y="472" font-size="22" font-weight="600" fill="#24213F" text-anchor="start">инструментами, но результат</text>

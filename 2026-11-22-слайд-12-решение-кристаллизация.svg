@@ -5,7 +5,7 @@
 <text x="72" y="104" font-size="44" font-weight="700" fill="#4B3BDB">Кристаллизация: обкатанное — в автоматику</text>
 <text x="72" y="152" font-size="26" font-weight="600" fill="#24213F">Сценарий закрепляем явно, одним из трёх способов</text>
 <rect x="72" y="182" width="360" height="262" rx="16" fill="#DDF5EF" stroke="#22B59A" stroke-width="2"/>
-<text x="252" y="216" font-size="16" font-weight="700" fill="#5B4BEA" text-anchor="middle">ЛУЧШИЙ ВАРИАНТ</text>
+<text x="252" y="216" font-size="18" font-weight="700" fill="#5B4BEA" text-anchor="middle">ЛУЧШИЙ ВАРИАНТ</text>
 <text x="252" y="252" font-size="28" font-weight="700" fill="#24213F" text-anchor="middle">Инструмент</text>
 <text x="252" y="296" font-size="21" font-weight="600" fill="#24213F" text-anchor="middle">обычный код: каждый раз</text>
 <text x="252" y="326" font-size="21" font-weight="600" fill="#24213F" text-anchor="middle">делает одно и то же,</text>

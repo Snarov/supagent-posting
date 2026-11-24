@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Roboto, Arial, sans-serif">
+<!-- слайд: 2026-11-22-слайд-00г-решение-черновики -->
+<defs><marker id="mI" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5B4BEA"/></marker><marker id="mR" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#E5486B"/></marker><marker id="mG" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#22B59A"/></marker><marker id="mW" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#FFFFFF"/></marker><marker id="mM" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#8B86B8"/></marker><linearGradient id="gInd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#3A1F9E"/></linearGradient><linearGradient id="gBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5F4CEE"/><stop offset="1" stop-color="#2C1370"/></linearGradient><linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5F4CEE"/><stop offset="0.4" stop-color="#4B33D3"/><stop offset="1" stop-color="#2C1370"/></linearGradient><radialGradient id="gGlow"><stop offset="0" stop-color="#8C7DFF" stop-opacity="0.38"/><stop offset="0.65" stop-color="#8C7DFF" stop-opacity="0"/></radialGradient><radialGradient id="gShade"><stop offset="0" stop-color="#1E085A" stop-opacity="0.55"/><stop offset="0.7" stop-color="#1E085A" stop-opacity="0"/></radialGradient><filter id="sh" x="-5%" y="-30%" width="110%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#4B3BDB" flood-opacity="0.14"/></filter></defs>
+<rect width="1280" height="720" fill="#FFFFFF"/>
+<text x="72" y="104" font-size="44" font-weight="700" fill="#4B3BDB">Каждый ответ — черновик</text>
+<text x="72" y="152" font-size="26" font-weight="600" fill="#24213F">Агент предлагает, а что уйдёт клиенту, решает оператор</text>
+<path d="M200 244 L200 552" stroke="#B9B3E6" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="80" y="196" width="240" height="48" rx="24" fill="#4B3BDB"/>
+<text x="200" y="229" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Клиент</text>
+<path d="M640 244 L640 552" stroke="#B9B3E6" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="520" y="196" width="240" height="48" rx="24" fill="#4B3BDB"/>
+<text x="640" y="229" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Агент</text>
+<path d="M1080 244 L1080 552" stroke="#B9B3E6" stroke-width="3" stroke-dasharray="8 8"/>
+<rect x="960" y="196" width="240" height="48" rx="24" fill="#4B3BDB"/>
+<text x="1080" y="229" font-size="24" font-weight="700" fill="#FFFFFF" text-anchor="middle">Оператор</text>
+<path d="M200 300 L628 300" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" marker-end="url(#mI)"/>
+<rect x="383" y="280" width="74" height="40" rx="8" fill="#FFF4DE" stroke="#F2A33A" stroke-width="2"/>
+<text x="420" y="308" font-size="22" font-weight="700" fill="#7A4A00" text-anchor="middle">ввод</text>
+<path d="M640 400 L1068 400" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" marker-end="url(#mI)"/>
+<rect x="799" y="380" width="122" height="40" rx="8" fill="#FFF4DE" stroke="#F2A33A" stroke-width="2"/>
+<text x="860" y="408" font-size="22" font-weight="700" fill="#7A4A00" text-anchor="middle">черновик</text>
+<path d="M1080 500 L212 500" stroke="#5B4BEA" stroke-width="4" stroke-linecap="round" marker-end="url(#mI)"/>
+<rect x="489" y="480" width="302" height="40" rx="8" fill="#FFF4DE" stroke="#F2A33A" stroke-width="2"/>
+<text x="640" y="508" font-size="22" font-weight="700" fill="#7A4A00" text-anchor="middle">ответ — после «Принять»</text>
+<rect x="72" y="588" width="1136" height="76" rx="14" fill="#FFFFFF" stroke="#E4E0FF" stroke-width="1.5" filter="url(#sh)"/>
+<svg x="100" y="612" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#5B4BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.7.6 1.1 1.3 1.1 2.2h5c0-.9.4-1.6 1.1-2.2A6 6 0 0 0 12 3z"/></svg>
+<text x="152" y="635" font-size="25" fill="#24213F" xml:space="preserve"><tspan>Ерунда остаётся в черновиках, </tspan><tspan font-weight="700" fill="#4B3BDB">а не у клиента</tspan></text>
+<rect x="0" y="710" width="1280" height="10" fill="url(#gBar)"/>
+</svg>
